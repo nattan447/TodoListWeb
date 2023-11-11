@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+    <h1>To do list</h1>
+</header>
+<div id="inputview">
+<input type="text" id="tarefa" placeholder="digite a sua tarefa">
+<button id="btn">adicionar</button>
+</div>
+<div id="lista">
+
+
+
+</div>
+<input type="text" placeholder="testeput" id="testeput">
+<button id="edit">editar</button>
+</body>
+</html>
+
+
+<style>
+
+#testeput{
+border: none;
+}
+
+</style>
+<script>
+     document.getElementById("testeput").disabled = true;
+     document.getElementById("edit").addEventListener("click",()=>{
+        document.getElementById("testeput").disabled = false;
+        document.getElementById("testeput").addEventListener("mouseout",()=>{
+            document.getElementById("testeput").disabled = true;
+        })
+        
+     })
+</script>

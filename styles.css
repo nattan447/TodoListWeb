@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url("imgs/universebackground.jpg");
+  background-size: cover;
+}
+header {
+  text-align: center;
+  margin-top: 7%;
+}
+header h1 {
+  font-size: 3rem;
+  color: #c77b43;
+  font-weight: bold;
+}
+main {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
+  padding: 1.9%;
+}
+
+#inputview {
+  text-align: center;
+}
+#inputview button {
+  padding: 1.3%;
+  border-radius: 6px;
+  border-style: none;
+  margin-left: 3%;
+  background-color: #c77b43;
+  color: white;
+}
+#inputview input {
+  background-color: #f1ebeb;
+  border-style: none;
+}
+
+#tarefa {
+  width: 24rem;
+  height: 2rem;
+  padding-left: 10px;
+}
+.viewtarefa {
+  border-radius: 8px;
+  height: 2rem;
+
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.viewtarefa:hover {
+  background-color: #f1ebeb;
+}
+.viewtarefa input {
+  margin: 0 auto;
+
+  color: black;
+  border-style: none;
+}
+.viewtarefa input:hover {
+  background-color: #f1ebeb;
+}
+.viewtarefa button {
+  background-color: white;
+  margin-right: 2%;
+  padding: 0.3%;
+  border-radius: 4px;
+  border-style: none;
+}
+input {
+  border-radius: 0.3rem;
+  margin-top: 4%;
+}
